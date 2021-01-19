@@ -43,6 +43,8 @@ public class JobData {
             }
         }
 
+        values.sort(null); // Null comparator forces sort by natural ordering
+
         return values;
     }
 
